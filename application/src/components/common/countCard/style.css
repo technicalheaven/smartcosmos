@@ -1,0 +1,31 @@
+.countCard{
+    background-color: #fff;
+    /* min-width: 300px; */
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.countCard .info{
+    text-align: center;
+}   
+
+.countCard .info .count{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.countCard .info .title{
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+}
+
+.countCard .colorbar{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top:0;
+}

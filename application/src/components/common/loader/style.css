@@ -1,0 +1,17 @@
+.UIloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fffefe1f;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+}
+
+.UIloader .ant-spin {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}

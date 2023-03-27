@@ -1,0 +1,62 @@
+.homeLogo {
+  display: flex;
+  justify-content: left;
+}
+
+.tenantCol {
+  font-weight: 600;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #2E2E2E;
+}
+
+.tenantList .ant-card-body {
+  padding: 0px;
+}
+
+.front-top-card{
+  padding-top: 5px;
+}
+
+.addTenant {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.tenantTable .ant-table-body{
+max-height: 601px !important;
+}
+
+@media (max-width: 550px) {
+  .tenantCol {
+    font-size: 2.30vw;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .front-top-card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px !important;
+    padding-bottom: 10px;
+  }
+} */
+
+
+.homeImage {
+  width: 30px;
+}
+
+.ant-table-container {
+  height: 100%
+}
+
+.ant-table-content {
+  height: 100%
+}
+
+.description-box{
+  height: 130px !important;
+}
+

@@ -1,0 +1,209 @@
+.duration-filter {
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  /* border: 1px solid rgba(137, 137, 137, 0.3); */
+  border-radius: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: #2e2e2e;
+}
+.duration-filter span {
+  padding: 0px 1.25rem 0px 1.25rem;
+}
+.calendarRange {
+  width: 267px;
+  height: 36px;
+  position: relative;
+}
+
+.calendarRange.ant-picker-focused{
+  box-shadow: none !important;
+}
+.rangeDropDown .ant-picker-ranges .ant-picker-preset > .ant-tag-blue {
+  color: #2e2e2e;
+  background: #ffffff;
+  border: 0px;
+  border-top: 1px solid #2e2e2e19;
+  font-size: 13px;
+  width: 45%;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  padding-left: 47px;
+}
+.rangeDropDown
+  .ant-picker-ranges
+  .ant-picker-preset
+  > .ant-tag-blue:not(:first-child) {
+  color: #2e2e2e;
+  background: #ffffff;
+  border: 0px;
+  border-top: 1px solid #2e2e2e19;
+  font-size: 13px;
+  width: 20%;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+.rangeDropDown .ant-picker-ranges .ant-picker-preset > .ant-tag-blue:hover {
+  background-color: rgba(137, 137, 137, 0.08) !important;
+}
+.rangeDropDown .ant-picker-ranges .ant-picker-ok > .ant-btn {
+  background: #227f99;
+  border: 1px solid #227f99;
+  border-radius: 4px;
+  color: #ffffff;
+  width: 80px;
+  height: 36px;
+  padding: 0px;
+}
+
+.ant-picker-footer-extra {
+  position: absolute;
+  bottom: 13px;
+  right: 0px;
+}
+.ant-picker-footer-extra:not(:last-child) {
+  border-bottom: 0px;
+}
+
+.ant-picker-datetime-panel {
+  height: 280px;
+}
+.ant-picker-time-panel {
+  display: none;
+}
+.ant-picker-ranges > li {
+  display: block;
+}
+ul.ant-picker-ranges:before {
+  content: "Select Range";
+  position: relative;
+  left: 67px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(46, 46, 46, 0.8);
+}
+
+ul.ant-picker-ranges:after {
+  content: url("../../../assets/icons/clock.svg");
+  position: relative;
+  bottom: 310px;
+  left: 41px;
+}
+.ant-picker-ranges .ant-picker-ok {
+  float: none;
+  margin-left: 0px;
+  margin-top: 12px;
+  position: absolute;
+  bottom: 23px;
+  right: 32px;
+}
+.ant-picker-ranges {
+  padding: 4px 15px;
+  padding-left: 0px;
+  height: 331px;
+  border-bottom: 1px solid;
+  display: grid;
+}
+.ant-picker-datetime-panel {
+  border-right: 1px solid rgb(46, 46, 46, 0.1);
+  height: 330px;
+  border-bottom: 1px solid;
+}
+.ant-picker-datetime-panel .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):not(.ant-picker-cell-range-end)
+  .ant-picker-cell-inner {
+  border-radius: 50%;
+}
+.ant-picker-datetime-panel .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single):not(.ant-picker-cell-range-start)
+  .ant-picker-cell-inner {
+  border-radius: 50%;
+}
+.ant-picker-datetime-panel .ant-picker-cell .ant-picker-cell-inner {
+  border-radius: 50%;
+}
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner:before {
+  border-radius: 50%;
+  border: 1px solid #227f99;
+}
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
+  background: #227f99;
+}
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single):before,
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):before {
+  background: rgba(34, 127, 153, 0.2);
+}
+.ant-picker-cell-in-view.ant-picker-cell-in-range:before {
+  background: rgba(34, 127, 153, 0.2);
+}
+.ant-picker-panel-container {
+  height: 400px;
+  width: 500px;
+  display: flex;
+}
+.ant-btn-primary[disabled],
+.ant-btn-primary[disabled]:active,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary[disabled]:hover {
+  color: rgba(0, 0, 0, 0.25) !important;
+  border-color: #d9d9d9 !important;
+  background: #f5f5f5 !important;
+}
+.rangeDropDown .ant-picker-ranges .ant-picker-ok .ant-btn span {
+  font-size: 0;
+}
+.rangeDropDown .ant-picker-ranges .ant-picker-ok .ant-btn span:after {
+  content: "Done";
+  font-size: initial;
+}
+.calendarCancel {
+  position: relative;
+  right: 121px;
+  width: 86px;
+  height: 34px;
+  top: -9px;
+  padding: 0px 20px !important;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  border-radius: 4px;
+}
+.calendarTxtCncl {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #979797;
+}
+
+table.ant-picker-content {
+  height: 277px;
+}
+
+li.ant-picker-preset:first-child {
+  padding-top: 3px;
+}
+
+.calendarRange.ant-picker{
+  border: none;
+}
+
+.closeIconBtn {
+  cursor: pointer;
+  position: absolute;
+  right: 10%;
+  transform: translateY(50%);
+  top: -2px;
+}

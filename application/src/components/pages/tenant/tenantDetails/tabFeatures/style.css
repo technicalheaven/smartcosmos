@@ -1,0 +1,38 @@
+.featureSwitch.ant-switch {
+    height: 14px;
+}
+.featureSwitch.ant-switch .ant-switch-handle{
+    top : -3px !important;
+}
+.featureSwitch.ant-switch-checked{
+background-color: #1DC70EB2 !important;
+}
+.featureSwitch.ant-switch-checked .ant-switch-handle:before {
+    background-color: #216F4E !important;
+}
+.featureTable tr{
+    background: #E9F3F5;
+}
+
+.featureTable tbody tr{
+    border-top: 10px solid white;
+}
+
+.featureTable tbody .ant-table-measure-row{
+    border: none;
+}
+
+.featureTable table{
+    border-collapse: collapse !important;
+}
+.featureTable tr td{
+    border-bottom: 10px;
+}
+
+.featureTable tr:hover{
+    background: #E9F3F5;
+}
+
+.featureTable td.ant-table-cell.ant-table-cell-row-hover{
+ background: #E9F3F5 !important;
+}

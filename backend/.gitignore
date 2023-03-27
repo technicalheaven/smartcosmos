@@ -1,0 +1,8 @@
+/node_modules
+/package-lock.json
+/dist
+/src/logs/
+/yarn.lock
+/uploads
+/src/libs/fileUploader/uploads
+/tagUploads

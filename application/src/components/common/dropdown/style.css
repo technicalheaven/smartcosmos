@@ -1,0 +1,7 @@
+.ant-dropdown-menu-item-disabled , .ant-dropdown-menu-item-disabled + .ant-dropdown-menu-item-divider{
+   display: none;
+}
+
+.ant-dropdown-menu-item-divider{
+   margin: 0px 0px;
+}

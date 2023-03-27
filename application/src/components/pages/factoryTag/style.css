@@ -1,0 +1,29 @@
+.buttonRow{
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 10px 0px;
+}
+
+.inputField{
+    display: flex;
+}
+.search{
+    margin-left: 10px;
+}
+
+.marginOnInput{
+    margin-right: 20px;
+}
+
+.factoryTags .detailed-top-card .ant-card-body{
+    height: initial !important;
+}
+
+@media (max-width: 1300px){
+    .factoryTag{
+        display: contents;
+    }
+    .margin{
+        margin-top: 20px;
+    }
+}

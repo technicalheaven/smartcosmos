@@ -1,0 +1,11 @@
+.tb-0 {
+    background: #ffffff;
+  }
+
+.tb-0 .ant-tooltip-inner {
+    color: black !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(137, 137, 137, 0.5);
+  }
+  

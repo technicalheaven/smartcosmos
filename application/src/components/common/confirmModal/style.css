@@ -1,0 +1,115 @@
+.delete-message {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.11vw;
+  line-height: 160%;
+  display: flex !important;
+  align-items: center;
+  letter-spacing: 0.002em;
+  color: #2e2e2e;
+  justify-content: center;
+}
+
+.warnModal .ant-modal-content {
+  border-radius: 10px;
+  height: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.warnModal .ant-modal-close-x svg {
+  width: 15px;
+  height: 15px;
+}
+
+.warnModal .ant-modal-wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  outline: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.primaryText {
+  font-family: Open Sans;
+  font-style: normal;
+  display: flex !important;
+  word-break: break-all;
+  letter-spacing: 0.002em;
+  color: #2e2e2e;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+.success {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.warn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.button-modal {
+  padding-top: 1.75rem;
+}
+
+.cancelClick {
+  font-weight: 700;
+  border: 1px solid #000099;
+  background: white;
+}
+
+.deleteClick {
+  background: white;
+}
+
+.bt1 {
+  width: 10% !important;
+}
+
+.ant-modal-close-x {
+  font-size: 9px !important;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  background-color: #4da0c1;
+}
+.ant-modal-close-x .anticon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 16px;
+}
+.ant-modal-close-x .anticon svg{
+  fill: #fff;
+  stroke: #ffffff;
+  stroke-width: 80;
+}
+
+@media (min-width: 768px) and(max-width:1024px) {
+  .ant-modal-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0% !important;
+    overflow: auto;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+

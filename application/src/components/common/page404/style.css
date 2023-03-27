@@ -1,0 +1,11 @@
+.page404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.page404 .content{
+    font-size: 20px;
+    color: red;
+}

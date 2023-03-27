@@ -1,0 +1,88 @@
+:root {
+    /* Login screen bg */
+    --loginBackground: #227F99;
+    --white: #FFFFFF;
+
+    /* Primary colors */
+    --darkBlue: #227F99;
+    --orange: #FF7842;
+    --skyBlue: #DEEEF3;
+    --lightBlue: #EFF5F7;
+
+    /* Secondary colors */
+    --navyBlue: #0E3077;
+    --darkGrey: #838383;
+    
+
+    /* Status colors */
+    --darkGreen: #1DC70E;
+    --orange: #FF7842;
+    --darkYellow: #FFC668;
+    --grey: #838383;
+
+    /* Alert and Error colours */
+
+    --darkerGreen: #37B400;
+    --darkRed: #DD1E2E;
+    --maroon: #7E0C00;
+    --lightPink: #FDD1CC;
+    --reddishPink: #FCBEB8;
+    --lightYellow: #fdd1cc;
+    --brown: #7E0C00;
+
+    --success: #37B400;
+    --primary: #096dd9;
+    --error: #DD1E2E;
+    --warning: #FF7842;
+    --danger: #dd1e2e;
+    --info: #227f99;
+
+
+    /* Color shades */
+
+    --grey01: #F4F4F4;
+    --grey02: #F2F2F2;
+    --grey03: #E2E2E2;
+    --grey04: #F9F9F9;
+    --grey05: #979797;
+    --grey06: #ADADAF;
+
+
+
+    /* Heading Sizes */
+
+    --heading1: 18px;
+    --heading2: 16px;
+    --heading3: 16px;
+    --heading4: 14px;
+    --heading5: 14px;
+    --heading6: 13px;
+
+    /* Title: Sizes */
+    --title1: 14px;
+    --title2: 12px;
+    --title3: 11px;
+
+    --btnTextColor: white;
+    --alertTextColor: var(--brown);
+
+    /* Secondary Button */
+    --disableBtnBgColor: #f7f6f6;
+    --disableBtnTextColor: #d0cfcf;
+    --secondaryButton: #979797;
+    --headerLogoBg: #138098;
+    
+    /* sidebar */
+    --sidebarBg: #4C5254;
+    --sidebarText: #e4e4e4;
+    --menuSelected : #082026;
+    --sidebarFontSize: 16px;
+    --sidebarWidth: 250px;
+    --sidebarcollapsedWidth: 80px;
+
+    --headerFontColor: #2E2E2ECC;
+
+    --dropdownTextColor: #2E2E2E;
+    --uitableFontColor: #2E2E2E;
+    --checkBoxColor: #227F99;
+  }

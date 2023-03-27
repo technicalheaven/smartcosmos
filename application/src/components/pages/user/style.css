@@ -1,0 +1,60 @@
+.userAddModal .ant-modal{
+    width:700px !important
+}
+
+.user-listing .status:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    margin-right: 4px;
+}
+
+.front-top-card{
+    padding-top: 5px;
+}
+
+.status.invited::before{
+    background-color: #216F4E;
+}
+ 
+
+.status.active::before{
+    background-color: #57c922;
+}
+
+
+.status.deactive::before{
+    background-color: #e00d37;
+}
+
+.usernameInput{
+    position: relative;
+}
+
+.usernameInput .useEmailCheckBox{
+    position: absolute;
+    right: 0;
+    z-index: 99;
+}
+
+.hideCol{
+    display: none;
+}
+
+
+/* @media (max-width: 768px) {
+    .front-top-card {
+      display: flex;
+      flex-direction: column;
+      padding-top: 0px !important;
+      padding-bottom: 10px;
+    }
+} */
+  
+.platformUser .listing-section {
+    height: 70vh;
+}

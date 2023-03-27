@@ -1,0 +1,76 @@
+.chartLayout .topBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chartLayout{
+    background: #fff;
+    padding: 20px;
+    min-height: 450px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.chartLayout .topBar .title{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.chartLayout .topBar .actions .ant-space-item{
+    cursor: pointer;
+}
+
+.chartPlaceHolder {
+    height: 100%;
+    width: 100%;
+}
+
+.chartPlaceHolder .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.chartPlaceHolder .icon{
+    height: 100px;
+    width: 100px;
+    background-color: #D9D9D980;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.chartPlaceHolder .icon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chartPlaceHolder .text{
+    font-size: 20px;
+    padding: 10px 0;
+    color: #2E2E2ECC;
+}
+
+.chartLayout .chart{
+    margin-top: 20px;
+}
+
+/* .json-to-table tr:first-child td{ 
+.chartLayout .chart{
+    margin-top: 40px;
+}
+
+.chartLayout .chart.pie canvas{
+    width: 300px !important;
+    margin: auto;
+}
+*/
+.json-to-table td strong{ 
+    font-weight: 600;
+    text-transform: capitalize;
+} 

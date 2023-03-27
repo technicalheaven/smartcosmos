@@ -1,0 +1,201 @@
+@import url(../../../styles/theme.css);
+.fixedHeader{
+      padding: 0;
+      width: 100%;
+      z-index: 999;
+      position: fixed;
+      background: white;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 15px 15px 0px 0px;
+}
+
+.header{ 
+    display: flex;
+    align-items: center;
+    color: var(--grey05);
+}
+
+.header .sclogo{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.header .sclogo .logotext{
+    padding: 8px;
+}
+
+.header .logo {
+    background-color: var(--headerLogoBg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarWidth{ width: var(--sidebarWidth) !important; transition: 0.2s;}
+.collapsedWidth{ width: var(--sidebarcollapsedWidth) !important; transition: 0.2s;}
+
+
+.header .hammerberg {
+    padding: 0 20px;
+    cursor: pointer;
+    border-right: 1px solid #2E2E2E33;
+    position: absolute;
+    top: 54%;
+    height: 60%;
+    transform: translateY(-50%);
+}
+
+.hammerberg img{
+    transform: translateY(50%);
+}
+
+
+@media (max-width: 1000px) {
+
+    .header .hammerberg{
+        display: none;
+        padding: 0px;
+    }
+    .breadcrumbMargin{
+        margin-left: 35px !important;
+    }
+
+}
+
+@media (max-width: 1100px){
+    .ant-breadcrumb ol{
+        min-width: 75%;
+        width: 50%;
+    }
+}
+
+
+.ant-breadcrumb ol{
+    font-size: 14px;
+    margin-top: 22px;
+    font-weight: 500;
+    color: #2E2E2E !important;
+}
+
+.ant-layout-header{
+    line-height: initial;
+}
+
+.profileImage{
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.profileImageSection{
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: var(--headerFontColor);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-left: 1px solid #2E2E2E33;
+}
+
+.profileImage img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileImageSection .name{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.profileImageSection .role{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.profileImageSection .info{
+    padding-right: 25px;
+}
+
+.columnPassword{
+    margin-top: 30px;
+}
+
+.userIcon.ant-dropdown-menu-item-icon{
+    background: #227F99;
+    border-radius: 50%;
+    position: relative;
+}
+.profileIcon{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+
+.ant-dropdown-menu-item:hover{
+    background: rgba(34, 127, 153, 0.1);
+}
+
+.userDropdownIcon{
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.userDropdownIcon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info .name{
+    text-transform: capitalize;
+}
+
+.ant-layout-header{
+    height: 72px;
+}
+.input-field{
+    margin-top: 20px;
+}
+.label-size{
+    font-size: 14px;
+}
+
+
+.session_expired_alert{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #00000078;
+    z-index: 99999;
+}
+
+.session_expired_alert .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.session_expired_alert .content .message{
+    color: #f44336;
+    font-size: 16px;
+}
+
+.session_expired_alert .btn{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.session_expired_alert .uiBtn.md {
+    padding: 5px 15px;
+    font-size: 14px;
+}

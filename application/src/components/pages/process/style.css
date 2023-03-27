@@ -1,0 +1,697 @@
+.productUploadModal .uploadArea {
+  background: #f4f8fa;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #898989;
+  cursor: pointer;
+}
+
+.browse {
+  color: #227f99;
+  font-weight: 700;
+}
+
+.ant-modal-custom-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 20px;
+}
+
+.ant-modal-custom-header .secondary-text {
+  color: #898989;
+}
+
+.editProductModal .ant-modal-body {
+  padding: 0;
+}
+
+.productmodalForm .ant-form-item {
+  margin-bottom: 15px !important;
+}
+
+.productmodalForm {
+  height: 550px;
+  overflow: auto;
+  padding: 20px;
+}
+
+/* width */
+.productmodalForm::-webkit-scrollbar,
+.scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.productmodalForm::-webkit-scrollbar-track,
+.scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.productmodalForm::-webkit-scrollbar-thumb,
+.scroll::-webkit-scrollbar-thumb {
+  background: #4c5254;
+  border-radius: 10px;
+}
+
+.procesInfDivider {
+  height: 100%;
+  border-left: 1px solid rgba(0, 0, 0, 0.06) !important;
+  margin-right: 0px;
+}
+
+.processForm {
+  padding-left: 31px;
+}
+
+.crssIcn1 {
+  position: absolute;
+  left: 1rem;
+  top: 2.5rem;
+  cursor: pointer;
+}
+
+.continueBtn {
+  float: right !important;
+}
+
+.processHead {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #2e2e2e;
+}
+
+.divider1 {
+  margin-top: 17px;
+  margin-bottom: 34px;
+}
+
+.pInfoLabel {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #161616 !important;
+}
+
+.ant-form-item-label>label .endLoop {
+  margin-top: 20px;
+}
+
+.processStep {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #2e2e2e;
+}
+
+.divider2 {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.prcsAdd {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #227f99;
+  margin-left: 19px;
+  cursor: pointer;
+}
+
+.prcsDefault {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 161%;
+  display: flex;
+  align-items: center;
+  color: rgba(46, 46, 46, 0.9);
+}
+
+.customCheck .ant-checkbox+span {
+  align-self: center;
+}
+
+.divider3 {
+  margin-top: 43px;
+  margin-bottom: 30px;
+  margin-left: 31px;
+}
+
+.prcsBack {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #2e2e2e;
+  cursor: pointer;
+}
+
+/* .bckIcn {
+  color: #2e2e2e;
+  margin-right: 8px;
+} */
+
+.processModal .ant-steps-item-tail::before {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  border: 2px solid #8989894d;
+}
+
+.processModal .ant-steps-item-icon {
+  border: 2px solid #227f99;
+  width: 40px;
+  height: 40px;
+}
+
+.processModal .ant-steps-icon {
+  color: #fff;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.processModal .ant-steps-item-icon {
+  position: relative;
+  background: #e9f3f5;
+}
+
+.processModal .ant-steps-item-tail:after,
+.processModal .ant-steps-item-finish .ant-steps-item-tail::after {
+  background-color: #89898933;
+}
+
+.processModal .ant-steps-item-active .ant-steps-item-icon,
+.processModal .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #227f99 !important;
+}
+
+.processModal .ant-steps-item-wait .ant-steps-item-icon>.ant-steps-icon {
+  color: #2e2e2e;
+}
+
+.processModal .ant-steps-icon svg {
+  fill: #fff;
+}
+
+.processModal .step-validation-item .title {
+  margin-bottom: 20px;
+}
+
+.actionIcon {
+  height: 70px;
+  width: 70px;
+  background-color: #227f99;
+  border-radius: 50%;
+  position: relative;
+}
+
+.actionIcon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  transform: translate(-50%, -50%);
+}
+
+.processModal .step-validation-item {
+  margin-bottom: 20px;
+}
+
+.processModal .stepValidations {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 400px;
+  padding: 10px;
+}
+
+/* width */
+.processModal ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.processModal ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.processModal ::-webkit-scrollbar-thumb {
+  background: #4c5254;
+  border-radius: 10px;
+}
+
+.processModal .assignProcessSection .title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.processModal .assignProcessSection .info {
+  margin-bottom: 20px;
+}
+
+.processModal .content {
+  height: 500px;
+}
+
+.processModal .processVariablesSection .content {
+  height: 370px;
+}
+
+.processModal .scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+.processModal .process sup {
+  color: red;
+  font-size: 14px;
+}
+
+.processModal .processPreviewSection {
+  width: 100%;
+  min-width: 400px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+
+
+.processModal .stepswrapper .stepBox {
+  width: 100px;
+  position: relative;
+}
+
+.processModal .stepBox .icon {
+  background-color: #9c9c9c;
+  border-radius: 50%;
+  position: relative;
+  margin: 10px auto;
+  height: 70px;
+  width: 70px;
+}
+
+.processModal .stepBox .title {
+  height: 40px;
+}
+
+.processModal .stepBox.active .icon {
+  background-color: #000;
+}
+
+.stepBox.large .icon {
+  height: 120px;
+  width: 120px;
+  background-color: #227f99;
+}
+
+.processModal .stepBox.large img {
+  padding: 30px;
+}
+
+.processModal .stepBox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  padding: 20px;
+}
+
+.processModal .stepBox.large .title {
+  font-size: 16px;
+}
+
+.processModal .addAnotherStepBtn {
+  display: flex;
+  align-items: center;
+}
+
+.step-validation-action {
+  margin-bottom: 35px;
+}
+
+.noneWarningText {
+  padding: 40px 20px;
+}
+
+.customLabel {
+  margin-bottom: 15px;
+}
+
+.status.draft::before {
+  background-color: #827cd4;
+}
+
+.status.active::before {
+  background-color: #22c989;
+}
+
+.status.running::before {
+  background-color: #57c922;
+}
+
+.status.inactive::before {
+  background-color: #e00d37;
+}
+
+.processStepsRow {
+  position: absolute;
+  flex-wrap: nowrap;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.stepswrapper {
+  position: relative;
+  height: 160px;
+
+}
+
+.stepswrapper.scroll {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.stepswrapper.scroll .processStepsRow {
+  transform: initial;
+  left: initial;
+}
+
+.processStepsRow .loopborder {
+  content: "";
+  left: 45px;
+  right: 60px;
+  display: block;
+  min-height: 60px;
+  position: absolute;
+  top: 70%;
+  border: 1px solid grey;
+}
+
+.stepswrapper.scroll .processStepsRow .loopborder {
+  top: 24%;
+}
+
+.processStepsRow .looparrow {
+  content: "";
+  height: 0;
+  position: absolute;
+  transition: all 0.5s linear;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 11px solid grey;
+  left: 40px;
+  bottom: 0;
+}
+
+.stepswrapper.scroll .processStepsRow .looparrow {
+  bottom: initial;
+  top: 40px;
+  transform: rotate(180deg);
+  transition: 0s;
+}
+
+/* .processStepsRow .ant-col:not(:last-child) .stepBox:after {
+  content: "";
+  height: 0;
+  top: 90px;
+  width: 90px;
+  position: absolute;
+  border-bottom: 1px solid #b9b5b5;
+} */
+
+.stepline {
+  content: "";
+  display: block;
+  left: 50px;
+  position: absolute;
+  top: 70%;
+  border-bottom: 1px solid grey;
+}
+
+.verticalDivider {
+  /* background-color: #89898933; */
+  /* min-height: 64vh; */
+  height: 100%;
+  margin-top: -24px;
+}
+
+
+.previewCard .ant-card-body {
+  border: 1px solid #87CDE6;
+  border-radius: 15px;
+  background-color: #13809808;
+}
+
+.previewCard .ant-card-bordered {
+  border: none;
+}
+
+.columnHeader.uitable .ant-table-thead>tr>th {
+  color: #2e2e2e;
+}
+
+.processDetails .backButton {
+  padding-left: 15px;
+}
+
+
+
+
+.processDetails .heading {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: block;
+  border-bottom: 1px solid #8989891a;
+  padding-bottom: 15px;
+}
+
+.instructions .heading {
+  border: initial;
+}
+
+.processDetails ul {
+  padding: 0;
+}
+
+.processDetails .processInformation ul li {
+  display: flex;
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #8989891a;
+}
+
+.processDetails ul li {
+  list-style: none;
+}
+
+.processDetails li .title {
+  width: 200px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.processDetails .steps {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #8989891a;
+}
+
+.processDetails .steps li {
+  flex-basis: 50%;
+  padding: 5px 10px;
+}
+
+.processDetails .processInformation .ant-card,
+.processDetails .processStepDetails .ant-card {
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.previewIcon {
+  color: #227F99;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  top: 3px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.previewIcon span {
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.processDetails .instructions {
+  text-align: justify;
+}
+
+
+.processDetails .field .ant-form-item-row {
+  display: block;
+}
+
+
+.processDetails .title-section .info {
+  padding: 0 20px;
+}
+
+.processDetails .title-section .title {
+  padding-left: initial;
+}
+
+.processDetails .processInformation,
+.processDetails .processStepDetails {
+  height: 100%;
+}
+
+.processDetails .processStepDetails .ant-form-item-row {
+  display: block;
+}
+
+.processDetails .processStepDetails .steps {
+  height: 450px;
+  overflow: hidden;
+  padding: 0 20px;
+  overflow-y: scroll;
+}
+
+.loopInputs {
+  width: 350px;
+}
+
+.loopInputs .ib-0 {
+  margin: 0px 0px 30px 0px !important;
+}
+
+
+[name=roles].ant-checkbox-group {
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+
+[name=roles].ant-checkbox-group .ant-checkbox-wrapper {
+  flex-basis: 32%;
+}
+
+.pulse {
+  box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+  animation: pulse 2s infinite;
+}
+
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+
+  70% {
+    -webkit-box-shadow: 0 0 0 15px rgba(204, 169, 44, 0);
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+
+  70% {
+    -moz-box-shadow: 0 0 0 15px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 15px rgba(204, 169, 44, 0);
+  }
+
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.validationInputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.validationInputs .ant-form-item {
+  width: 100%;
+}
+
+.validationInputs button {
+  margin-right: 0 !important;
+  margin: 15px 0 10px 10px;
+}
+
+
+@media (min-width:768px) and (max-width: 1140px) {
+  .processDetails .steps {
+    display: block;
+  }
+}
+
+.instructionParagraph {
+  overflow-x: hidden;
+  height: 190px;
+  overflow-y: scroll
+}
+
+.instructionParagraph::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+/* .instructionParagraph::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+
+/* Handle */
+.instructionParagraph::-webkit-scrollbar-thumb {
+  background: #4c5254;
+  border-radius: 10px;
+}

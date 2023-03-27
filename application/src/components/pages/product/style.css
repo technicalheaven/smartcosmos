@@ -1,0 +1,148 @@
+.productUploadModal .uploadArea {
+  background: #f4f8fa;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #898989;
+  cursor: pointer;
+}
+.browse{
+    color: #227F99;
+    font-weight: 700;
+}
+
+.otherAttribute{
+  margin-top: 10px;
+}
+
+.ant-modal-custom-header{
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 20px;
+}
+
+.ant-modal-custom-header .secondary-text{
+  color: #898989;
+}
+
+.editProductModal .ant-modal-body{
+  padding: 20px !important;
+}
+
+.productmodalForm .ant-form-item {
+  margin-bottom: 15px !important;
+}
+
+.productmodalForm{
+  height: 480px !important;
+  overflow: auto;
+  padding: 20px;
+}
+
+/* width */
+.productmodalForm::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.productmodalForm::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.productmodalForm::-webkit-scrollbar-thumb {
+  background: #4C5254; 
+  border-radius: 10px;
+}
+
+.productMetadata .json-to-table tr{
+ text-transform: capitalize;
+}
+
+.productMetadata .json-to-table tr td{
+  background-color: #fdfcfc !important;
+}
+.productTable .ant-table-body{
+  max-height: 601px !important;
+  }
+.productUploadSuccess .primaryText{
+  max-height: 50px;
+  overflow: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.primaryText::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+.primaryText::-webkit-scrollbar-thumb {
+  background: #4C5254; 
+  border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 1624px) {
+  .uicard.detailed-top-card .ant-card-body{
+    height: auto;
+  }
+  /* .search{
+    margin-bottom: 10px;
+  } */
+  .margin-bottom{
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .uicard.detailed-top-card .ant-card-body{
+    height: auto;
+  }
+   
+  /* .margin-bottom{
+    margin-bottom: 20px;
+  } */
+}
+.productRow{
+  display: contents;
+}
+
+
+
+
+.tagUploadResponseModal .exitBtn .uiBtn{
+  font-size: 14px !important;
+}
+
+.tagUploadResponseModal .uiBtn{
+   height: 35px;
+}
+
+.tagUploadResponseModal .content .title{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tagUploadResponseModal .text {
+  font-size: 16px;
+  padding: 0;
+  padding-left: 20px;
+}
+
+
+.tagUploadResponseModal .text a{
+  text-decoration: underline;
+  color: #3f51b5;
+}
+
+.tagUploadResponseModal .content{
+  margin: auto;
+  width: 400px;
+}
+
+.tagUploadResponseModal .exitBtn{
+  margin-top: 20px;
+}
+

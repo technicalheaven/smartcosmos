@@ -1,0 +1,55 @@
+{
+    "enablementId": "9c51f0c4-15ef-4ca3-8e1c-50a28deee0fa",
+    "product": {
+        "name": "Coca-Cola",
+        "description": "Soft Drink",
+        "imageUrl": "https://www.adobe.com/express/create/media_127a4cd0c28c2753638768caf8967503d38d01e4c.jpeg?width=400&format=jpeg&optimize=medium"
+    },
+    "tenant": {
+        "id": "4b51f0c4-15ef-4ca3-8e1c-50a28deee0hg",
+        "name": "SmartCosmos"
+    },
+    "site": {
+        "id": "0j51f0c4-15ef-4ca3-8e1c-50a28deee0kl",
+        "name": "Jss Step Noida",
+        "geoLocation": {
+            "lat": "28.6124",
+            "lon": "77.3593"
+        }
+    },
+    "station": {
+        "deploymentId": "7g51f0c4-15ef-4ca3-8e1c-50a28deee0hg",
+        "name": "Mobile",
+        "description": "Mobile Station"
+    },
+    "barcode": {
+        "key": "ABC-abc-1234",
+        "code": "123",
+        "type": "Code-128",
+        "subtype": "Code-128"
+    },
+    "qrcode": {
+        "key": "xyz-345",
+        "code": "245",
+        "type": "Static QR Code",
+        "subtype": "Static QR Code"
+    },
+    "nfc": {
+        "id": "04971B82286880",
+        "key": "1234",
+        "url": "https://secretlab.mtag.io/ns05?id=04971B82286880&num=000003&sig=ED81FAAA4EBD8ECD"
+    },
+    "input": {
+        "key": "",
+        "value": ""
+    },
+    "metadata": {
+        "nfc": [{"id":"12345"}],
+        "qrcode": [],
+        "barcode": [],
+        "input": [],
+        "product":[]
+    },
+    "status": "enabled",
+    "lastOperationTimestamp": "2022-10-07T04:36:01.000Z"
+  }

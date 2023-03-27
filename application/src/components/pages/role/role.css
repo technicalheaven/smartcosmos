@@ -1,0 +1,144 @@
+.permisson-header {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px !important;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  color: #000099;
+}
+
+.permission-description {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 161%;
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(46, 46, 46, 0.9);
+
+
+}
+
+.permicheck {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #2E2E2E;
+}
+
+.permissonScreen {
+  padding: 1.875rem;
+  border-bottom: 1px solid rgb(240, 234, 234);
+}
+
+.permissonScreen:last-child {
+  border-bottom: none
+}
+
+.radio {
+  text-align: right;
+}
+
+.rolePermissionCheck .ant-checkbox-disabled+span {
+
+  color: #1c1c1c;
+  align-self: center;
+
+}
+
+.rolePermissionCheck .ant-checkbox-inner {
+  border-radius: 20px !important;
+  width: 23px;
+  height: 23px;
+  background-color: white !important;
+
+}
+
+.rolePermissionCheck .ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner:after {
+  position: absolute;
+  display: block;
+
+  opacity: 1;
+  transition: all .2s cubic-bezier(.12, .4, .29, 1.46) .1s;
+  content: " ";
+  background: rgb(34, 127, 153);
+  border-radius: 50%;
+  border-color: rgb(34, 127, 153);
+}
+
+.rolePermissionCheck .ant-checkbox-inner:after {
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 12px;
+  height: 12px;
+
+  border-top: 0;
+  border-left: 0;
+
+  opacity: 0;
+
+}
+
+.roleDetail {
+  margin-left: 16px;
+}
+
+.checkboxDiv {
+  border-radius: 20px;
+  border: 1px solid;
+  width: 23px;
+  height: 23px;
+  position: relative;
+}
+
+.roleName {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+
+  color: #2E2E2E;
+}
+
+.roleDescription {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 161%;
+
+  display: flex;
+  align-items: center;
+
+  color: rgba(46, 46, 46, 0.9);
+}
+
+.rolesManage{
+  height: 70vh;
+  overflow-y: auto;
+  
+}
+.rolesManage::-webkit-scrollbar, .scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.rolesManage::-webkit-scrollbar-track, .scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  width: 8px;
+  border-radius: 10px;
+}
+.rolesManage::-webkit-scrollbar-thumb, .scroll::-webkit-scrollbar-thumb {
+  background: #4c5254;
+  border-radius: 10px;
+}

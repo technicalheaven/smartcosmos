@@ -1,0 +1,17 @@
+@import url(../../../styles/theme.css);
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--checkBoxColor);
+    border-color: var(--checkBoxColor);
+}
+
+.lg .ant-checkbox-inner{
+    height: 20px;
+    width: 20px;
+}
+
+.lg .ant-checkbox-inner::after {
+    top: 40%;
+    width: 8px;
+    height: 14px;
+}

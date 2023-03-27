@@ -1,0 +1,83 @@
+.inputBox-0 {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px !important;
+  color: #161616 !important;
+}
+.ant-form-item-label > label {
+  font-size: 14px !important;
+  font-family: "Nunito Sans";
+  color: #2E2E2E;
+}
+.inputBox-1 {
+  border-radius: 5px !important;
+  /* border: 1px solid #2E2E2E; */
+  height: 40px;
+ 
+}
+.ant-input {
+  font-size: 14px !important;
+}
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  /* border-color: #000 !important; */
+}
+.ant-input-affix-wrapper-focused {
+  /* border-color: #000 !important; */
+}
+.ant-input:hover {
+  /* border-color: #000 !important; */
+  border-color: #40a9ff !important;
+}
+.ant-input:focus {
+  /* border-color: #000 !important; */
+  border-color: #40a9ff !important;
+
+}
+.ant-form-item-has-error label{
+    color: #ee0000 !important;
+}
+.ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ee0000;
+  font-size: 14px;
+  font-family: IBM Plex Sans;
+  line-height: 1;
+  content: "*";
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: none !important;
+}
+
+.ant-input-suffix {
+  font-weight: 18px;
+  margin-left: 0px;
+  padding-right: 5px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.ant-form-item-explain-error {
+  font-size: 14px;
+  color: #dc143c !important;
+ }
+
+ .ant-input:disabled {
+  color: #000000c2;
+}
+
+.ant-input-affix-wrapper{
+  font-size: 18px;
+  /* margin-bottom: 10px; */
+}
+
+.ant-form-item-control .ant-form-item-explain-error {
+  position: absolute;
+}

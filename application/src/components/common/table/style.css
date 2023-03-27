@@ -1,0 +1,129 @@
+@import url(../../../styles/theme.css);
+
+.uitable th{
+    background: #EAEAEA !important;
+    margin-top: 10px;
+    text-transform: uppercase;
+    
+}
+.uitable .ant-table-thead>tr>th{
+    font-weight: 700;
+    color: #2E2E2ECC;
+}
+
+.uitable .ant-table-tbody>tr>td{
+    padding: 15px;
+}
+.uitable th:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+}
+
+.uitable .ant-table-header{
+    border-radius: 12px;
+}
+
+.uitable .ant-table {
+    background-color: #fdfcfc;
+    color: var(--uitableFontColor);
+}
+
+.uitable li.ant-pagination-options:before {
+    content: "Rows per page: ";
+}
+
+.uicard.table .card-body{
+    background-color: #fdfcfc;
+    padding: 15px;
+    border: 1px solid #87CDE6;
+    border-radius: 15px;
+    margin-bottom: 70px;
+    height: 88%;
+}
+
+.uitable .ant-table {
+    background-color: #fdfcfc;
+}
+
+.uitable .ant-table-column-sorters{
+     justify-content: flex-start !important;
+}
+.uitable .ant-table-column-sorters > span{
+    flex: none !important;
+}
+
+
+.uitable .ant-table-body::-webkit-scrollbar-track
+{
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.uitable .ant-table-body::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.ant-table-cell-row-hover{
+    background: #E9F3F5 !important; 
+}
+
+.uitable .ant-table-body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #4C5254;
+}
+
+.uitable  .ant-table-cell-fix-right-first:after, .uitable .ant-table-ping-left:not(.ant-table-has-fix-left)>.ant-table-container:before, .uitable .ant-table-ping-right:not(.ant-table-has-fix-right)>.ant-table-container:after{
+    box-shadow: none !important;
+}
+
+.ant-table-pagination.ant-pagination {
+    position: relative;
+    right: 5px;
+    top: 35px;
+
+    /* position: absolute;
+    right: -15px;
+    bottom: -18%; */
+}
+
+.ant-table-cell a{
+    color: #3F51B5;
+    text-decoration: underline;
+}
+
+.react-resizable {
+    position: relative;
+    background-clip: padding-box;
+  }
+  
+  .react-resizable-handle {
+    position: absolute;
+    right: -5px;
+    bottom: 0;
+    z-index: 1;
+    width: 10px;
+    height: 100%;
+    cursor: col-resize;
+  }
+  
+  .ant-table-thead th::before, .ant-table-thead th.ant-table-column-has-sorters:hover:before, .ant-table-thead th.ant-table-column-sort:before{
+    background-color: #a3a7aa9c !important;
+  }
+
+  .ant-table-thead th{
+    user-select: none;
+  }
+
+  @media (max-height: 950px) {
+
+    .ant-table-pagination.ant-pagination {
+        position: relative;
+        right: 5px;
+        top: 20px;
+    }
+}

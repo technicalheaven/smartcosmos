@@ -1,0 +1,225 @@
+@import url(../../../styles/theme.css);
+
+.Card {
+  border-radius: 10px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.envTag {
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+
+.logoDiv {
+  text-align: right;
+  justify-content: center;
+  display: flex;
+}
+
+.cosmosCircle {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-right: 12px;
+}
+
+.smallLogo {
+  width: 220px;
+  height: 45px;
+}
+
+.mainDiv {
+  background-color: var(--loginBackground);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card .ant-card-body {
+  padding: 0 40px !important;
+}
+
+/* .cardDiv {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  padding-bottom: 3.125rem !important;
+} */
+
+.heading {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  letter-spacing: 0.25px;
+  padding-top: 15px;
+}
+
+.buttonRow {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.signIn {
+  width: 100%;
+  margin-top: 30px;
+  /* margin-bottom: 20px; */
+  /* padding-top: 20px; */
+}
+
+.forgetPassword {
+  color: rgb(34, 127, 153);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-decoration-line: underline;
+}
+.forgotPass {
+  text-align: right;
+}
+.inputCss {
+  margin-top: 20px !important;
+}
+
+.checkboxRow {
+  margin-top: 23px;
+}
+
+.rememberMe {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(46, 46, 46, 0.8);
+}
+
+.envText {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  bottom: 157px;
+  color: var(--white);
+  right: 34px;
+  transform: rotate(40deg);
+  text-transform: uppercase;
+}
+
+/* .password {
+  background-color: #E8F0F3 !important;
+} */
+
+.ant-input-password-icon.anticon:hover {
+  color: #40a9ff;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  padding: 10px 25px 10px 10px;
+}
+
+.loginErrorMessageHeight{
+  height: 15px;
+}
+
+@media (max-width: 550px) {
+  .Card .ant-card {
+    width: 80% !important;
+  }
+}
+@media (max-width: 450px) {
+  .Card .ant-card {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 800px) {
+  .Card .ant-card {
+    width: 55% !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 980px) {
+  .Card .ant-card {
+    width: 40%;
+  }
+}
+
+@media (max-width: 360px) {
+  .heading {
+    font-size: 14px;
+  }
+}
+
+/* Create Password CSS */
+
+.createPassword {
+  background-color: #227f99;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createPassword .logo {
+  width: 200px;
+  margin: auto;
+}
+
+.createPassword .ant-form-item-row {
+  margin-bottom: 45px;
+}
+
+.createPassword .box {
+  padding: 60px;
+  border-radius: 15px;
+  width: 525px;
+  min-width: 525px;
+  min-height: 600px;
+  background-color: #fff;
+}
+
+.createPassword .text {
+  color: #2e2e2ecc;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.signInBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px !important;
+}
+
+.errorMessage {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.createPassword .ant-form-item-control .ant-form-item-explain-error {
+  position: absolute;
+}

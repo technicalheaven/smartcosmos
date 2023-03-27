@@ -1,0 +1,175 @@
+.tabIcon {
+  margin-right: 5px;
+}
+
+/* .identities-tabs .ant-tabs-extra-content {
+  width: 53%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+} */
+
+.ant-tabs-extra-content .ant-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* .identities-tabs .ant-tabs-extra-content .ant-row{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+} */
+.tab-container {
+  margin-top: 20px;
+}
+
+.input-box {
+  margin-right: 20px;
+}
+
+.valueLabel {
+  font-size: 14px !important;
+  font-family: "Nunito Sans";
+  color: #2e2e2e;
+}
+
+.diInput {
+  height: 40px;
+  border: 1px solid rgba(137, 137, 137, 0.5);
+  border-radius: 3px;
+}
+
+.diInput.ant-input:hover {
+  border-color: #40a9ff !important;
+}
+
+
+.input-identity .ant-select-selector {
+  border: none !important;
+}
+
+/* .input-identity .ant-select-selector:hover{
+  border: none !important;
+} */
+
+
+.select-input-identity {
+  display: flex;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  max-width: 90%;
+}
+
+
+.input-identity {
+  width: 100%;
+}
+
+.identityIcon {
+  margin-left: 10px;
+}
+
+.identityCalendar {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.ui-filter-select-input .icon img {
+  margin-left: 15px;
+}
+
+.diProcessSelect .ant-select-selection-placeholder {
+  color: #2E2E2ECC;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.diProcess {
+  height: 100%;
+}
+
+.summary {
+  font-size: 16px;
+  color: #2e2e2e;
+}
+
+.DI-filter-input {
+  margin-bottom: 10px;
+}
+.diProcessSelect .ant-select-selection-item{
+  width: 150px;
+}
+
+.DITable .ant-table-selection-column {
+  padding: 15px !important;
+}
+
+@media (min-width: 700px) and (max-width: 1700px) {
+  /* .ant-tabs-nav {
+    display: flex;
+    flex-direction: column;
+  } */
+  /* .identities-tabs .ant-tabs-extra-content {
+    width: 97%;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: inherit;
+  } */
+}
+.enablementSummary .ant-table-pagination.ant-pagination {
+  top: 65px;
+}
+.uitable.DITable.ant-table-wrapper{
+  height: 48vh;
+}
+
+@media (min-width: 700px) and (max-width: 1700px) {
+  .identities-tabs .ant-tabs-extra-content {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+}
+
+@media (min-height: 768px) and (max-height: 1000px) {
+  .uitable.DITable.ant-table-wrapper{
+    height: 39vh;
+  }
+  .enablementSummary .ant-table-pagination.ant-pagination {
+    top: 10px;
+  }
+
+  .diInfo .uitable .ant-table {
+    height: 40vh !important;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1760px){
+  .enablementSummary .ant-table-pagination.ant-pagination {
+    top: 10px;
+  }
+
+}
+
+.identities-tabs .ant-tabs-extra-content {
+  width: 62%;
+}
+
+.uicard.diInfo {
+  min-height: 70vh;
+}
+
+.diInfo .uitable .ant-table {
+  height: 48vh;
+}
+
+.identitiesFilterBy .ant-form-item-control {
+  width: 65%;
+}
+
+.identities-tabs .actionBtns .ant-space {
+  float: right;
+}

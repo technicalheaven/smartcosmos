@@ -1,0 +1,12 @@
+.chunks .ant-list-items{
+    height: 300px;
+    overflow-y: auto;
+}
+
+.chunks .ant-list-item:hover{
+    background-color: #f1f1f1;
+}
+
+.chunks .totalRecords{
+    color: #607D8B;
+}

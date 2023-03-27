@@ -1,0 +1,26 @@
+.deviceAddModal .ant-modal{
+    width: 1000px !important;
+}
+
+.deviceModel{
+    position: relative;
+    bottom: 23px;
+}
+
+.styleDeviceCheckbox{
+    position: relative;
+    left: 8rem;
+    bottom: 0;
+}
+.deviceCol{
+    position: relative;
+}
+
+.radio-text{
+    color: #2e2e2e;
+}
+
+.ant-tabs-nav-list{
+    transform: none !important;
+    overflow-x: auto !important;
+}

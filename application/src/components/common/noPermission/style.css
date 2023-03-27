@@ -1,0 +1,11 @@
+.pageNoPermissions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.pageNoPermissions .content{
+    font-size: 20px;
+    color: red;
+}
